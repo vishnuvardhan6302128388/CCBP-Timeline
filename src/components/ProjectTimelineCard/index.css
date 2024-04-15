@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.project-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.image {
+  width: 100%;
+}
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.time-container {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-size: 35px;
+}
+.duration {
+  font-size: 20px;
+}
+.description {
+  font-size: 25px;
+}
+.link {
+  font-size: 25px;
+}
+@media screen and (max-width: 576px) {
+  .image {
+    width: 100px;
+  }
+  .project-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .description {
+    font-size: 8px;
+  }
+  .link {
+    font-size: 10px;
+  }
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .time-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}

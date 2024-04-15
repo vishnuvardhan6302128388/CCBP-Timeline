@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.course-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-size: 35px;
+}
+.time-container {
+  display: flex;
+  align-items: center;
+}
+.duration {
+  font-size: 20px;
+}
+.description {
+  font-size: 25px;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+}
+.listName {
+  background-color: #e7ecf3;
+  color: Black;
+  margin-left: 12px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.name {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px;
+}
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 15px;
+  }
+  .course-container {
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .listName {
+    margin: 2px;
+    border: 5px;
+    margin-left: 5px;
+  }
+  .name {
+    font-size: 8px;
+    padding: 2px;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .title-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
